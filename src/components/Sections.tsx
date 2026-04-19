@@ -62,24 +62,64 @@ export const Navbar = () => {
       {/* Mobile Menu Overlay */}
       <motion.div 
         initial={false}
-        animate={isOpen ? { height: 'auto', opacity: 1 } : { height: 0, opacity: 0 }}
-        className="lg:hidden overflow-hidden bg-brand-cream border-t border-black/5"
+        animate={isOpen ? { opacity: 1, pointerEvents: 'auto' } : { opacity: 0, pointerEvents: 'none' }}
+        className="lg:hidden fixed inset-0 z-40 bg-brand-cream pt-24"
       >
-        <div className="flex flex-col p-8 gap-6 text-[12px] font-bold uppercase tracking-[0.3em] text-center">
-            <a href="#about" onClick={() => setIsOpen(false)} className="py-2">Despre Noi</a>
-            <a href="#events" onClick={() => setIsOpen(false)} className="py-2">Evenimente</a>
-            <a href="#gallery" onClick={() => setIsOpen(false)} className="py-2">Galerie</a>
-            <a href="#testimonials" onClick={() => setIsOpen(false)} className="py-2">Recenzii</a>
-            <a href="#contact" onClick={() => setIsOpen(false)} className="py-2">Contact</a>
+        <div className="flex flex-col p-12 gap-8 text-[14px] font-bold uppercase tracking-[0.4em] text-center">
+            <motion.a 
+                initial={{ y: 20, opacity: 0 }}
+                animate={isOpen ? { y: 0, opacity: 1 } : { y: 20, opacity: 0 }}
+                transition={{ delay: 0.1 }}
+                href="#about" onClick={() => setIsOpen(false)} className="py-4 border-b border-black/5"
+            >
+                Despre Noi
+            </motion.a>
+            <motion.a 
+                initial={{ y: 20, opacity: 0 }}
+                animate={isOpen ? { y: 0, opacity: 1 } : { y: 20, opacity: 0 }}
+                transition={{ delay: 0.2 }}
+                href="#events" onClick={() => setIsOpen(false)} className="py-4 border-b border-black/5"
+            >
+                Evenimente
+            </motion.a>
+            <motion.a 
+                initial={{ y: 20, opacity: 0 }}
+                animate={isOpen ? { y: 0, opacity: 1 } : { y: 20, opacity: 0 }}
+                transition={{ delay: 0.3 }}
+                href="#gallery" onClick={() => setIsOpen(false)} className="py-4 border-b border-black/5"
+            >
+                Galerie
+            </motion.a>
+            <motion.a 
+                initial={{ y: 20, opacity: 0 }}
+                animate={isOpen ? { y: 0, opacity: 1 } : { y: 20, opacity: 0 }}
+                transition={{ delay: 0.4 }}
+                href="#testimonials" onClick={() => setIsOpen(false)} className="py-4 border-b border-black/5"
+            >
+                Recenzii
+            </motion.a>
+            <motion.a 
+                initial={{ y: 20, opacity: 0 }}
+                animate={isOpen ? { y: 0, opacity: 1 } : { y: 20, opacity: 0 }}
+                transition={{ delay: 0.5 }}
+                href="#contact" onClick={() => setIsOpen(false)} className="py-4 border-b border-black/5"
+            >
+                Contact
+            </motion.a>
             
-            <div className="flex justify-center gap-6 pt-4 border-t border-black/5">
+            <motion.div 
+                initial={{ opacity: 0 }}
+                animate={isOpen ? { opacity: 1 } : { opacity: 0 }}
+                transition={{ delay: 0.6 }}
+                className="flex justify-center gap-10 pt-12"
+            >
                 <a href="https://www.instagram.com/curteamosului/" target="_blank" rel="noopener noreferrer" className="text-brand-forest">
-                    <Instagram size={24} />
+                    <Instagram size={32} />
                 </a>
                 <a href="https://www.facebook.com/Curteamosului/" target="_blank" rel="noopener noreferrer" className="text-brand-forest">
-                    <Facebook size={24} />
+                    <Facebook size={32} />
                 </a>
-            </div>
+            </motion.div>
         </div>
       </motion.div>
     </nav>
@@ -280,9 +320,9 @@ export const Gallery = () => {
         "https://www.image2url.com/r2/default/images/1776590260062-bb7d20a4-537a-435f-9eb9-6c9b85b00fab.jpg",
         "https://lh3.googleusercontent.com/p/AF1QipN7IJdeV0LsT1G4R51YLIONDHZcQMGwo3mRxFod=s680-w680-h510-rw",
         "https://lh3.googleusercontent.com/p/AF1QipNGHkSoxkcGoI_Jb9Q1fQ8bJgMqsilEvoOhAuJu=s680-w680-h510-rw",
-        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_9.png",
-        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_3.png",
-        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_11.png",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH2YcPsP8H0KbpVoqGyhSF7_BEaMXHMoq7rc2e9m3FQ5Nxe4ggNdDdS-DzzTl4LnyqklSW5Jo4U9rWyaLumg5LnsJJkB7GfJx2hE7n-NcOMnOJvjsO-kyGNUbpay5XSCgmELFdTNA=s680-w680-h510-rw",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGI4R1Jx9qUyBQ3_Zm2ajLm7EhvsRTqKJjGc-trpkC8Vwy_9LLFl0nHFzc-pm_OO_5Zom5-1XMux3R59nE8BSZc7PinvnTU35bVjnAZ_sfUwS3-2-HSETmOa7RXBwCEEleXMTJ5=s680-w680-h510-rw",
+        "https://lh3.googleusercontent.com/p/AF1QipOpeu4i_GZqilJcN7p9xrS2BN1YZS7o4muGH7ba=s680-w680-h510-rw",
     ];
 
     return (
