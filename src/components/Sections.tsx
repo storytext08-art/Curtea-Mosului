@@ -91,9 +91,9 @@ export const Hero = () => {
     <section className="relative min-h-[90vh] md:min-h-screen pt-24 md:pt-32 px-6 flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_9.png" 
-          alt="Curtea Moșului Grădină" 
-          className="w-full h-full object-cover opacity-20"
+          src="/images/hero.jpg" 
+          alt="Curtea Moșului Panorama" 
+          className="w-full h-full object-cover opacity-30"
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-brand-cream/40" />
@@ -103,9 +103,9 @@ export const Hero = () => {
         <div className="relative bg-[#E8E4DA] p-8 md:p-20 aspect-square flex flex-col justify-end overflow-hidden group">
           <div className="absolute inset-0 z-0">
              <img 
-              src="https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_3.png" 
+              src="https://www.image2url.com/r2/default/images/1776589280472-84cd0b87-be00-4169-a113-c5b4f0e0ef63.jpg" 
               alt="Curtea Moșului Exterior" 
-              className="w-full h-full object-cover opacity-10 transition-transform duration-700 group-hover:scale-110"
+              className="w-full h-full object-cover opacity-20 transition-transform duration-700 group-hover:scale-110"
               referrerPolicy="no-referrer"
             />
           </div>
@@ -205,10 +205,10 @@ export const About = () => {
         <div className="order-1 lg:order-2 relative group flex justify-center w-full">
           <div className="w-full aspect-[4/5] min-h-[300px] md:min-h-[400px] bg-[#D6D1C4] overflow-hidden rounded-sm shadow-2xl relative">
             <img 
-              src="https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_3.png" 
-              alt="Clădire principală Curtea Moșului" 
+              src="https://lh3.googleusercontent.com/p/AF1QipNeSVwhGQyKTlFuoZozHHoIAn2JOyDgDX_D44pJ=s680-w680-h510-rw" 
+              alt="Grădina Curtea Moșului" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 relative z-10"
-              referrerPolicy="strict-origin-when-cross-origin"
+              referrerPolicy="no-referrer"
               loading="eager"
             />
             <div className="absolute inset-0 flex items-center justify-center text-[10px] text-brand-forest/20 uppercase tracking-widest font-bold">
@@ -230,9 +230,9 @@ export const About = () => {
 
 export const Events = () => {
     const eventTypes = [
-        { title: "Nunți", desc: "Un cadru unde timpul stă în loc. Grădina noastră grandioasă și sălile elegante oferă fundalul perfect pentru povestea voastră de dragoste.", image: "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_0.png" },
-        { title: "Botezuri", desc: "Sărbătoriți noile începuturi alături de familie într-o atmosferă caldă și tradițională care vă face să vă simțiți ca acasă.", image: "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_1.png" },
-        { title: "Aniversări", desc: "Zile de naștere sau jubilee—ne ocupăm de fiecare detaliu pentru ca voi să vă concentrați pe crearea amintirilor frumoase.", image: "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_5.png" }
+        { title: "Nunți", desc: "Un cadru unde timpul stă în loc. Grădina noastră grandioasă și sălile elegante oferă fundalul perfect pentru povestea voastră de dragoste.", image: "https://www.image2url.com/r2/default/images/1776589717438-f896e1a3-472b-49e2-85dc-f15fe3cf83fb.webp" },
+        { title: "Botezuri", desc: "Sărbătoriți noile începuturi alături de familie într-o atmosferă caldă și tradițională care vă face să vă simțiți ca acasă.", image: "https://www.image2url.com/r2/default/images/1776589802992-b2c758e6-f1bc-4e81-a446-3c199b283380.jfif" },
+        { title: "Aniversări", desc: "Zile de naștere sau jubilee—ne ocupăm de fiecare detaliu pentru ca voi să vă concentrați pe crearea amintirilor frumoase.", image: "https://www.image2url.com/r2/default/images/1776589886627-81c815e1-90a3-449d-8276-963e627c0676.jpg" }
     ];
 
     return (
@@ -277,11 +277,11 @@ export const Events = () => {
 
 export const Gallery = () => {
     const images = [
-        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_2.png",
-        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_4.png",
-        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_6.png",
-        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_8.png",
-        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_10.png",
+        "https://www.image2url.com/r2/default/images/1776590260062-bb7d20a4-537a-435f-9eb9-6c9b85b00fab.jpg",
+        "https://lh3.googleusercontent.com/p/AF1QipN7IJdeV0LsT1G4R51YLIONDHZcQMGwo3mRxFod=s680-w680-h510-rw",
+        "https://lh3.googleusercontent.com/p/AF1QipNGHkSoxkcGoI_Jb9Q1fQ8bJgMqsilEvoOhAuJu=s680-w680-h510-rw",
+        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_9.png",
+        "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_3.png",
         "https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_11.png",
     ];
 
@@ -344,7 +344,7 @@ export const MuseumFeature = () => {
                         </div>
                         <div className="aspect-square min-h-[250px] md:min-h-[300px] bg-white/10 border border-brand-gold/20 overflow-hidden shadow-2xl">
                             <img 
-                                src="https://ais-v-ext.s3.amazonaws.com/6mwxy4u3hsxfp2qbikpxwi/794472348952/input_file_7.png" 
+                                src="https://lh3.googleusercontent.com/p/AF1QipNa1Bonk0Yurg1NY3RRK9pi8hkGhs-8Dv2KRXw5=s680-w680-h510-rw" 
                                 alt="Amenajare spațiu evenimente"
                                 className="w-full h-full object-cover"
                                 referrerPolicy="no-referrer"
