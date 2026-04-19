@@ -231,7 +231,7 @@ export const About = () => {
 export const Events = () => {
     const eventTypes = [
         { title: "Nunți", desc: "Un cadru unde timpul stă în loc. Grădina noastră grandioasă și sălile elegante oferă fundalul perfect pentru povestea voastră de dragoste.", image: "https://www.image2url.com/r2/default/images/1776589717438-f896e1a3-472b-49e2-85dc-f15fe3cf83fb.webp" },
-        { title: "Botezuri", desc: "Sărbătoriți noile începuturi alături de familie într-o atmosferă caldă și tradițională care vă face să vă simțiți ca acasă.", image: "https://www.image2url.com/r2/default/images/1776589802992-b2c758e6-f1bc-4e81-a446-3c199b283380.jfif" },
+        { title: "Botezuri", desc: "Sărbătoriți noile începuturi alături de familie într-o atmosferă caldă și tradițională care vă face să vă simțiți ca acasă.", image: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDA3YVStnNvVlyRUI9UKH7jx99uZGBp00LglSbCxeerwzPfpfkFHyLY_-06mpiIePaBecd-x1_d-3KsDPffSQPOOFyHZzCyg7JNLp8_p_2lelHjMBu_RVorzYyITsnsopZORaM=s680-w680-h510-rw" },
         { title: "Aniversări", desc: "Zile de naștere sau jubilee—ne ocupăm de fiecare detaliu pentru ca voi să vă concentrați pe crearea amintirilor frumoase.", image: "https://www.image2url.com/r2/default/images/1776589886627-81c815e1-90a3-449d-8276-963e627c0676.jpg" }
     ];
 
